@@ -34,7 +34,7 @@ const EmailSection = () => {
       </div>
     </div>
     <div>
-        <form action="https://formsubmit.co/arunadiga48@gmail.com" method="POST" className="flex flex-col">
+        <form action="https://formsubmit.co/arunadiga48@gmail.com" method="POST" target="_blank" className="flex flex-col">
           <div className="mb-6">
             <label
               htmlFor="email"
@@ -48,7 +48,7 @@ const EmailSection = () => {
               id="email"
               required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="jacob@google.com"
+              placeholder="arun@google.com"
             />
           </div>
           <div className="mb-6">
@@ -64,10 +64,11 @@ const EmailSection = () => {
               id="subject"
               required
               className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="Just saying hi"
+              placeholder="Just saying hello"
             />
           </div>
           <input type="hidden" name="_captcha" value="false"></input>
+          
           <div className="mb-6">
             <label
               htmlFor="message"
